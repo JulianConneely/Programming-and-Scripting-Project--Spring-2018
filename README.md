@@ -1,7 +1,7 @@
 # Programming-and-Scripting-Project--Spring-2018
-Julian Conneely, 2018-04-11
-*This repository contains Python code
-*Download Anaconda here https://www.anaconda.com/download/ to run these exercises
+Julian Conneely, 2018-04-11\
+*This repository contains Python code\
+*Download Anaconda here https://www.anaconda.com/download/ to run these exercises\
 *I recommend you run these scripts in Visual Studio Code
 
 
