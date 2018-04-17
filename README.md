@@ -5,6 +5,16 @@ Julian Conneely, 2018-04-11
 *I recommend you run these scripts in Visual Studio Code
 
 
+# Project Plan
+Incremental tasks checklist to be completed on the way to project completion
+- [x] Research background information about the data set and write a summary of it
+- [ ] Keep a list of references you used in completing the project
+- [ ] Download the data set and write some Python code to investigate it
+- [ ] Summarise the data set using a Python script, e.g. calculating the maximum, minimum and
+mean of each column of the data set
+- [ ] Write a summary of investigations
+- [ ] Include supporting tables and graphics as you deem necessary
+
 
 # Background and Summary of the Data Set
 The Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper *'The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis'.* [1]
