@@ -23,9 +23,26 @@ Multivariate analysis (MVA) is based on the statistical principle of multivariat
 
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. [1]
 
+It includes three Iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
 
+The columns in this dataset are:
+
+    Id
+    SepalLengthCm
+    SepalWidthCm
+    PetalLengthCm
+    PetalWidthCm
+    Species
+
+Sepal Width vs. Sepal Length
+
+**insert graph here\**
+[3]
 
 # References
 [1] https://en.wikipedia.org/wiki/Iris_flower_data_set
 [2] https://en.wikipedia.org/wiki/Multivariate_analysis
-[3] 
+[3] https://www.kaggle.com/uciml/iris
+[5]
+[6]
+[7]
