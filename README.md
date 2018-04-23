@@ -26,6 +26,7 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 It includes three Iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other. [3]
 
 ![iris](iris-machinelearning.png)
+[6]
 
 The columns in this dataset are:
 
@@ -47,5 +48,5 @@ Colour coded Scatter Plot: Sepal Width vs. Sepal Length
 [2] https://en.wikipedia.org/wiki/Multivariate_analysis \
 [3] https://www.kaggle.com/uciml/iris \
 [5] http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png \
-[6] \
+[6] \http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html
 [7] \
