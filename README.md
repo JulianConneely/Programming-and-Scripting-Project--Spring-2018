@@ -25,6 +25,8 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 It includes three Iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other. [3]
 
+![iris](iris-machinelearning.png)
+
 The columns in this dataset are:
 
     Id
