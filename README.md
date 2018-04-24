@@ -47,6 +47,6 @@ Colour coded Scatter Plot: Sepal Width vs. Sepal Length
 [1] https://en.wikipedia.org/wiki/Iris_flower_data_set \
 [2] https://en.wikipedia.org/wiki/Multivariate_analysis \
 [3] https://www.kaggle.com/uciml/iris \
-[5] http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png \
-[6] \http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html
-[7] \
+[4] http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png \
+[5] http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html \
+[6] \
