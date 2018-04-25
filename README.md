@@ -19,7 +19,7 @@ mean of each column of the data set
 # Background and Summary of the Data Set
 The Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper *'The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis'.* [1]
 
-![Ronald Fisher](iris-machinelearning.png)
+![Ronald Fisher](ronald-fisher.png)
 [6]
 
 Multivariate analysis (MVA) is based on the statistical principle of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time. In design and analysis, the technique is used to perform trade studies across multiple dimensions while taking into account the effects of all variables on the responses of interest. [2].
@@ -28,7 +28,7 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 It includes three Iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other. [3]
 
-![iris](ronald-fisher.png)
+![iris](iris-machinelearning.png)
 [5]
 
 The columns in this dataset are:
@@ -58,4 +58,4 @@ A more useful set of data calculations to analyse would be the...
 [3] https://www.kaggle.com/uciml/iris \
 [4] http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png \
 [5] http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html \
-[6] \
+[6] http://www.nndb.com/people/763/000196175/ \
