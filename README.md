@@ -47,6 +47,11 @@ Colour coded Scatter Plot: Sepal Width vs. Sepal Length
 [4]
 
 # Summary of investigations
+
+Firstly all of the necessary Python libraries were imported to Python (see Section A of project.py script). \
+Secondly I imported the Iris dataset to Python as a CSV file (see Section B of project.py script). \
+Thirdly....
+
 While calculating the max, min and the mean of each column is useful way of practising data analysis using Python libraries, it does not in my opinion provide any useful information that is meaningful in terms of analysing the Iris Data Set. 
 
 A more useful set of data calculations to analyse would be the...
