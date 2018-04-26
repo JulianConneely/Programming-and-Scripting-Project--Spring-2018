@@ -60,6 +60,8 @@ While calculating the max, min and the mean of each column is useful way of prac
 
 A more useful set of data calculations to analyse would be the...
 
+New learnings while completing this project: Using new Python libraries e.g. NumPy, Pandas, Matplotllib; Learning how to produce and create visual outputs e.g. histograms, scatter plots while also understanding the outputs; Calculating the min, max and values; Running iPython as an active terminal to test code and outputs before committing them to scripts; Learning new GitHUb functonality e.g. Markdown and the Issues tab.
+
 
 # References
 [1] https://en.wikipedia.org/wiki/Iris_flower_data_set \
