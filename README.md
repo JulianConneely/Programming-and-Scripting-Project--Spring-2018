@@ -1,7 +1,7 @@
 # Programming-and-Scripting-Project--Spring-2018
 Julian Conneely, 2018-04-11\
 *This repository contains Python code\
-*Download Anaconda here https://www.anaconda.com/download/ to run these exercises\
+*Download Anaconda here https://www.anaconda.com/download/ to run the Python script(s)\
 *I recommend you run these scripts in Visual Studio Code
 
 
@@ -17,6 +17,9 @@ mean of each column of the data set
 
 
 # Background and Summary of the Data Set
+
+A data set is a collection of data. Most commonly a data set corresponds to the contents of a single database table, or a single statistical data matrix, where every column of the table represents a particular variable, and each row corresponds to a given member of the data set in question. [7] The Iris flower data set is considered a classic data set for use in statistics.
+
 The Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper *'The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis'.* [1]
 
 ![Ronald Fisher](ronald-fisher.png)
@@ -24,9 +27,10 @@ The Iris data set is a multivariate data set introduced by the British statistic
 
 Multivariate analysis (MVA) is based on the statistical principle of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time. In design and analysis, the technique is used to perform trade studies across multiple dimensions while taking into account the effects of all variables on the responses of interest. [2].
 
-The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. [1]
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. [1]
 
 It includes three Iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other. [3]
+
 
 ![iris](iris-machinelearning.png)
 [5]
@@ -64,3 +68,5 @@ A more useful set of data calculations to analyse would be the...
 [4] http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png \
 [5] http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html \
 [6] http://www.nndb.com/people/763/000196175/ \
+[7] https://en.wikipedia.org/wiki/Data_set \
+[8] 
