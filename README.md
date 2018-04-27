@@ -48,7 +48,7 @@ Setup: \
 Firstly all of the necessary Python libraries were imported to Python (see Section A of IrisProject.py script). \
 Secondly I imported the Iris dataset to Python as a CSV file and viewed the datesetusing the Head method. (see Section B of IrisProject.py script). \
 I then used numpy to calculate the max, min and mean of each column ( (see IrisMax, IrisMin and IrisMean scripts). \
-I also used pandas and matplotlib.pyplot to generate some graphs and visual representations of the data set. \
+I also used pandas and matplotlib.pyplot [8] to generate some graphs and visual representations of the data set. \
 Lastly I generated some sumamry statistics and analysis of the Iris dataset.
 
 Analysis: \
@@ -61,7 +61,7 @@ While calculating the max, min and the mean of each column is useful way of prac
 
 A more useful set of data calculations to analyse would be the...
 
-New learnings while completing this project: Using new Python libraries e.g. NumPy, Pandas, Matplotllib; Learning how to produce and create visual outputs e.g. histograms, scatter plots while also understanding the outputs; Calculating the min, max and values; Running iPython as an active terminal to test code and outputs before committing them to scripts; Learning new GitHUb functonality e.g. Markdown and the Issues tab.
+New learnings while completing this project: Using new Python libraries e.g. NumPy, Pandas, Matplotllib; Learning how to produce and create visual outputs e.g. histograms, scatter plots while also understanding the outputs; Calculating the min, max and values; Running iPython as an active terminal to test code and outputs before committing them to scripts; Learning new GitHUb functonality e.g. Markdown and the Issues tab. [9]
 
 
 # References
@@ -70,6 +70,10 @@ New learnings while completing this project: Using new Python libraries e.g. Num
 [3] https://www.kaggle.com/uciml/iris \
 [4] http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png \
 [5] http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP394/WholeStory-Iris.html \
-[6] http://www.nndb.com/people/763/000196175/ \
+[6] http://www.nndb.com/people/763/000196175 \
 [7] https://en.wikipedia.org/wiki/Data_set \
-[8] 
+[8] https://matplotlib.org/users/pyplot_tutorial.html \
+[9] https://guides.github.com/features/mastering-markdown \
+[10] \
+[11] \
+[12] \
