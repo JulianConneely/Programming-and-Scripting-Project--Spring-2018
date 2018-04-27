@@ -31,6 +31,8 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 It includes three Iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other. [3]
 
+If we look at the colour coded scatter plot below, a set of points is said to be linearly separable if there exists at least one line in the plane with all of the red points (Iris-setosa) on one side of the line and all the points (green Iris-versicolor and blue Iris-virginica) on the other side.
+
 
 ![iris](iris-machinelearning.png)
 [5]
