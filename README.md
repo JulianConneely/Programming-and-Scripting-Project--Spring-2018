@@ -47,7 +47,7 @@ Colour coded Scatter Plot: Sepal Width vs. Sepal Length
 Setup: \
 Firstly all of the necessary Python libraries were imported to Python (see Section A of IrisProject.py script). \
 Secondly I imported the Iris dataset to Python as a CSV file (see Section B of IrisProject.py script). \
-Thirdly I used numpy to calculate the max, min and mean of each column ( (see Section C of IrisProject.py script). \
+Thirdly I used numpy to calculate the max, min and mean of each column ( (see IrisMax, IrisMin and IrisMean scripts). \
 Fourthly I used
 
 Analysis: \
