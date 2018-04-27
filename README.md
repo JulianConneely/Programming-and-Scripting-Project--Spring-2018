@@ -61,7 +61,7 @@ I used Matplotlib to generate a barplot of the anatomical features of the Iris s
 While calculating the max, min and the mean of each column is useful way of practising data analysis using Python libraries, it does not in my opinion provide particularly useful information that is meaningful in terms of analysing the Iris Data Set.
 EXPAND OR REMOVE:Looking at the summary output we see that the sepal length mean is highest at 5.84cm while the petal width mean is notably low at 1.19cm. Another interesting feature is that sepal length ranges from 4.3cm to 7.9cm, while petal width has a much lower range of 0.1cm to 2.5cm.
 
-![MeanMinMax](MeanMinMax.png)
+![MeanMaxMin](MeanMaxMin.png)
 
 Indeed looking at *Figure_1 Histogram of Iris Column 1.png* you can see that column 1 (sepal length in cm) of the Iris Data set has 3 distinct peaks (between 4.7 and 5.0cm; between 5.4 and 5.6cm; and between 6.1 and 6.5cm). An example of a much more insightful graphic display of the data set. This histogram was created using the matplotlib.pyplot library and utilising the pl.hist and pl.show commands (see section B of IrisMean.py)
 
