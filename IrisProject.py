@@ -7,8 +7,8 @@ from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
 
 
-# Section B - Imported dataset
+# Section B - Import dataset
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pd.read_csv(url, names=names)
-print(dataset.head(50))
+print(dataset.head(50)) #loads first 40 rows of the dataset
