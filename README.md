@@ -45,12 +45,13 @@ Colour coded Scatter Plot: Sepal Width vs. Sepal Length
 # Summary of investigations
 
 Setup: \
-Firstly all of the necessary Python libraries were imported to Python (see Section A of iris.py script). \
-Secondly I imported the Iris dataset to Python as a CSV file (see Section B of iris.py script). \
-Thirdly
+Firstly all of the necessary Python libraries were imported to Python (see Section A of IrisProject.py script). \
+Secondly I imported the Iris dataset to Python as a CSV file (see Section B of IrisProject.py script). \
+Thirdly I used numpy to calculate the max, min and mean of each column ( (see Section C of IrisProject.py script). \
+Fourthly I used
 
 Analysis: \
-I used Matplotlib to generate a barplot of the anatomical features of the Iris species, this barplot shows how the three species of Iris differ distinctly on the basis of their four anatomical features (see Section D of iris.py script)
+I used Matplotlib to generate a barplot of the anatomical features of the Iris species, this barplot shows how the three species of Iris differ distinctly on the basis of their four anatomical features (see Section D of IrisProject script)
 
 While calculating the max, min and the mean of each column is useful way of practising data analysis using Python libraries, it does not in my opinion provide any useful information that is meaningful in terms of analysing the Iris Data Set. 
 
