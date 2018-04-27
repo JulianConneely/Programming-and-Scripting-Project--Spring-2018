@@ -23,7 +23,7 @@ print("The mean of second column is: ",meansecondcol)
 print("The mean of third column is: ",meanthirdcol)
 print("The mean of fourth column is: ",meanfourthcol)
 
-# Section B - Using matplotlib.pyplot to generate graphs and visual representations of the data set
+# Section B - Using matplotlib.pyplot to generate a barplot
 import matplotlib.pyplot as pl
 pl.hist(firstcol)
 pl.show()
