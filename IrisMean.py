@@ -1,5 +1,6 @@
 # Julian Conneely 27/04/18
-#  Using numpy Calculate the mean of each column
+
+#  Section A - Using numpy Calculate the mean of each column
 
 import numpy
 #read data file into array
@@ -22,7 +23,7 @@ print("The mean of second column is: ",meansecondcol)
 print("The mean of third column is: ",meanthirdcol)
 print("The mean of fourth column is: ",meanfourthcol)
 
-# Using matplotlib.pyplot to generate graphs and visual representations of the data set
+# Section B - Using matplotlib.pyplot to generate graphs and visual representations of the data set
 import matplotlib.pyplot as pl
 pl.hist(firstcol)
 pl.show()
