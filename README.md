@@ -25,7 +25,7 @@ The Iris data set is a multivariate data set introduced by the British statistic
 ![Ronald Fisher](ronald-fisher.png)
 [6]
 
-Multivariate analysis (MVA) is based on the statistical principle of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time. In design and analysis, the technique is used to perform trade studies across multiple dimensions while taking into account the effects of all variables on the responses of interest. [2].
+Multivariate analysis (MVA) is based on the statistical principle of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time. In design and analysis, the technique is used to perform trade studies across multiple dimensions while taking into account the effects of all variables on the responses of interest. [2]
 
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. [1]
 
@@ -37,18 +37,8 @@ If we look at the colour coded scatter plot below, a set of points is said to be
 ![iris](iris-machinelearning.png)
 [5]
 
-The columns in this dataset are:
-
-    Id
-    SepalLengthCm
-    SepalWidthCm
-    PetalLengthCm
-    PetalWidthCm
-    Species
-
 
 Colour coded Scatter Plot: Sepal Width vs. Sepal Length
-
 ![Colour coded Scatter Plot](http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png)
 [4]
 
