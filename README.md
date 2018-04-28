@@ -8,12 +8,14 @@ Julian Conneely, 2018-04-11\
 # Project Plan
 Incremental tasks checklist to be completed on the way to project completion
 - [x] Research background information about the data set and write a summary of it
-- [ ] Keep a list of references used in completing the project
-- [ ] Download the data set and write some Python code to investigate it
-- [ ] Summarise the data set using a Python script e.g. calculating the maximum, minimum and
+- [x] Keep a list of references used in completing the project
+- [x] Download the data set and write some Python code to investigate it
+- [x] Download the data set and write some Python code to investigate it
+- [x] Summarise the data set using a Python script e.g. calculating the maximum, minimum and
 mean of each column of the data set
-- [ ] Write a summary of investigations
-- [ ] Include supporting tables and graphics as necessary
+- [x] Write a summary of investigations
+- [x] Include supporting tables and graphics as necessary
+
 
 
 # Background and Summary of the Data Set
@@ -39,8 +41,10 @@ If we look at the colour coded scatter plot below, a set of points is said to be
 
 
 Colour coded Scatter Plot: Sepal Width vs. Sepal Length
-![Colour coded Scatter Plot](http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png)
+![Colour coded Scatter Plot:](http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png)
 [4]
+
+
 
 # Summary of investigations
 
@@ -53,13 +57,16 @@ Lastly I generated some sumamry statistics and analysis of the Iris dataset.
 
 Analysis: 
 
-I was unsure as to whether to use multiple different python scripts or to incorporate all into one so I chose multiple scripts.
+I was unsure as to whether to use multiple different python scripts or to incorporate all into one so I chose multiple scripts for clarity in the end.
 
-I used Matplotlib to generate a barplot of the anatomical features of the Iris species, this barplot shows how the three species of Iris differ distinctly on the basis of their four anatomical features (see Section B of IrisMean script). 
+I used Matplotlib to generate a barplot of the anatomical features of the Iris species, this barplot shows how the three species of Iris differ on the basis of their four anatomical features (see Section B of IrisMean script). 
 *Figure_3 Barplot of the anatomical features of the Iris species.png* shows that Iris Virginia has the longest sepal length, petal length and petal width, with Setosa having longest sepal width. It also shows that all three species have similar sepal widths; with Setosa having much smaller petals than both Versicolor and Virginica. 
 
-While calculating the max, min and the mean of each column is useful way of practising data analysis using Python libraries, it does not in my opinion provide particularly useful information that is meaningful in terms of analysing the Iris Data Set.
-EXPAND OR REMOVE:Looking at the summary output we see that the sepal length mean is highest at 5.84cm while the petal width mean is notably low at 1.19cm. Another interesting feature is that sepal length ranges from 4.3cm to 7.9cm, while petal width has a much lower range of 0.1cm to 2.5cm.
+![Barplot](Figure_3 Barplot of the anatomical features of the Iris species)
+
+While calculating the max, min and the mean of each column is a useful way of practising data analysis using Python libraries, in this case it does not in my opinion provide particularly useful information that is meaningful in terms of analysing the Iris Data Set. One observation is that sepal length ranges from 4.3cm to 7.9cm, while petal length has a much wider range of 1.0cm to 6.9cm. It woold be more useful to have a breakdown of the max, min and mean for each species.
+
+****breakdown here
 
 ![Mean](MeanMinMax.PNG)
 
