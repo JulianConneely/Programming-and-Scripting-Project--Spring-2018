@@ -24,7 +24,7 @@ A data set is a collection of data. Most commonly a data set corresponds to the 
 
 The Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper *'The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis'.* [1]
 
-![Ronald Fisher](ronald-fisher.png)
+![Ronald Fisher](Images/ronald-fisher.png)
 [6]
 
 Multivariate analysis (MVA) is based on the statistical principle of multivariate statistics, which involves observation and analysis of more than one statistical outcome variable at a time. In design and analysis, the technique is used to perform trade studies across multiple dimensions while taking into account the effects of all variables on the responses of interest. [2]
@@ -36,7 +36,7 @@ It includes three Iris species with 50 samples each as well as some properties a
 If we look at the colour coded scatter plot below, a set of points is said to be linearly separable if there exists at least one line in the plane with all of the red points (Iris-setosa) on one side of the line and all the points (green Iris-versicolor and blue Iris-virginica) on the other side.
 
 
-![iris](iris-machinelearning.png)
+![iris](Images/iris-machinelearning.png)
 [5]
 
 
@@ -64,7 +64,7 @@ I used Matplotlib to generate a barplot of the anatomical features of the Iris s
 
 While calculating the max, min and the mean of each column is a useful way of practising data analysis using Python libraries, in this case it does not in my opinion provide particularly useful information that is meaningful in terms of analysing the Iris Data Set. One observation is that sepal length ranges from 4.3cm to 7.9cm, while petal length has a much wider range of 1.0cm to 6.9cm. It woold be more useful to have a breakdown of the max, min and mean for each species.
 
-![Mean, Max and Min of the entire data set](MeanMinMax.PNG)
+![Mean, Max and Min of the entire data set](Images/MeanMinMax.PNG)
 
 
 ![Mean, Max and Min per species](*.PNG)
