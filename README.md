@@ -48,7 +48,7 @@ If we look at the colour coded scatter plot below, a set of points is said to be
 
 # Summary of investigations
 
-Setup: \
+Setup: 
 
 Firstly all of the necessary Python libraries were imported to Python (see Section A of IrisProject.py script). \
 Secondly I imported the Iris dataset to Python as a CSV file and viewed the data set using the Head method. (see Section B of IrisProject.py script). \
@@ -70,9 +70,9 @@ Calculating the max, min and the mean of each column (see IrisMax, IrisMin and I
 
 Indeed looking at *Figure_1 Histogram of Iris Column 1.png* you can see that column 1 (sepal length in cm) of the Iris Data set has 3 distinct peaks (between 4.7 and 5.0cm; between 5.4 and 5.6cm; and between 6.1 and 6.5cm). An example of a much more insightful graphic display of the data set. This histogram was created using the matplotlib.pyplot library and utilising the pl.hist and pl.show commands (see section B of IrisMean.py)
 
-A more useful set of data calculations to analyse would be the SCATTER PLOTS EXPAND
+A potentially more useful set of data calculations to analyse would be the Scatter Plot Matrix (Figure 2) and the Scatter Plot of all of the Iris data set variables (Figure 4).
 
-EXPAND
+
 
 New learnings while completing this project: Using new Python libraries e.g. NumPy, Pandas, Matplotllib; Learning how to produce and create visual outputs e.g. histograms, scatter plots while also understanding the outputs; Calculating the min, max and values; Running iPython as an active terminal to test code and outputs before committing them to scripts; Learning new GitHUb functonality e.g. Markdown and the Issues tab. [9]
 
