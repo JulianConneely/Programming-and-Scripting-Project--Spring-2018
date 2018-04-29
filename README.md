@@ -40,7 +40,7 @@ If we look at the colour coded scatter plot below, a set of points is said to be
 [5]
 
 
-Colour coded Scatter Plot: Sepal Width vs. Sepal Length
+## Colour coded Scatter Plot: Sepal Width vs. Sepal Length
 ![Colour coded Scatter Plot:](http://www.pybloggers.com/wp-content/uploads/2015/09/ratherreadblog.comwp-contentuploads201509iris_scatter-9c511da385a5344b661e2153e84c28382116721d.png)
 [4]
 
@@ -49,6 +49,7 @@ Colour coded Scatter Plot: Sepal Width vs. Sepal Length
 # Summary of investigations
 
 Setup: \
+
 Firstly all of the necessary Python libraries were imported to Python (see Section A of IrisProject.py script). \
 Secondly I imported the Iris dataset to Python as a CSV file and viewed the data set using the Head method. (see Section B of IrisProject.py script). \
 I then used numpy to calculate the max, min and mean of each column (see IrisMax, IrisMin and IrisMean scripts). \
@@ -62,12 +63,10 @@ I was unsure as to whether to use multiple different python scripts or to incorp
 I used Matplotlib to generate a barplot of the anatomical features of the Iris species, this barplot shows how the three species of Iris differ on the basis of their four anatomical features (see Section B of IrisMean script). 
 *Figure_3 Barplot of the anatomical features of the Iris species.png* shows that Iris Virginia has the longest sepal length, petal length and petal width, with Setosa having longest sepal width. It also shows that all three species have similar sepal widths; with Setosa having much smaller petals than both Versicolor and Virginica. 
 
-While calculating the max, min and the mean of each column is a useful way of practising data analysis using Python libraries, in this case it does not in my opinion provide particularly useful information that is meaningful in terms of analysing the Iris Data Set. One observation is that sepal length ranges from 4.3cm to 7.9cm, while petal length has a much wider range of 1.0cm to 6.9cm. It woold be more useful to have a breakdown of the max, min and mean for each species.
+Calculating the max, min and the mean of each column (see IrisMax, IrisMin and IrisMean scripts) is a useful way of practising data analysis using Python libraries, however it does not in my opinion provide particularly useful information that is meaningful in terms of analysing the Iris Data Set. One observation is that sepal length ranges from 4.3cm to 7.9cm, while petal length has a much wider range of 1.0cm to 6.9cm. 
 
 ![Mean, Max and Min of the entire data set](Images/MeanMinMax.PNG)
 
-
-![Mean, Max and Min per species](*.PNG)
 
 Indeed looking at *Figure_1 Histogram of Iris Column 1.png* you can see that column 1 (sepal length in cm) of the Iris Data set has 3 distinct peaks (between 4.7 and 5.0cm; between 5.4 and 5.6cm; and between 6.1 and 6.5cm). An example of a much more insightful graphic display of the data set. This histogram was created using the matplotlib.pyplot library and utilising the pl.hist and pl.show commands (see section B of IrisMean.py)
 
