@@ -63,18 +63,21 @@ I was unsure as to whether to use multiple different python scripts or to incorp
 I used Matplotlib to generate a barplot of the anatomical features of the Iris species, this barplot shows how the three species of Iris differ on the basis of their four anatomical features (see Section B of IrisMean script). 
 *Figure_3 Barplot of the anatomical features of the Iris species.png* shows that Iris Virginia has the longest sepal length, petal length and petal width, with Setosa having longest sepal width. It also shows that all three species have similar sepal widths; with Setosa having much smaller petals than both Versicolor and Virginica. 
 
-Calculating the max, min and the mean of each column (see IrisMax, IrisMin and IrisMean scripts) is a useful way of practising data analysis using Python libraries, however it does not in my opinion provide particularly useful information that is meaningful in terms of analysing the Iris Data Set. One observation is that sepal length ranges from 4.3cm to 7.9cm, while petal length has a much wider range of 1.0cm to 6.9cm. 
+Calculating the max, min and the mean of each column (see IrisMax, IrisMin and IrisMean scripts) is a useful way of practising data analysis using Python libraries, however it does not in my opinion provide particularly useful information that is enlightening in terms of analysing the Iris Data Set. One observation is that sepal length ranges from 4.3cm to 7.9cm, while petal length has a much wider range of 1.0cm to 6.9cm. 
 
 ![Mean, Max and Min of the entire data set](Images/MeanMinMax.PNG)
 
 
 Indeed looking at *Figure_1 Histogram of Iris Column 1.png* you can see that column 1 (sepal length in cm) of the Iris Data set has 3 distinct peaks (between 4.7 and 5.0cm; between 5.4 and 5.6cm; and between 6.1 and 6.5cm). An example of a much more insightful graphic display of the data set. This histogram was created using the matplotlib.pyplot library and utilising the pl.hist and pl.show commands (see section B of IrisMean.py)
 
-A potentially more useful set of data calculations to analyse would be the Scatter Plot Matrix (Figure 2) and the Scatter Plot of all of the Iris data set variables (Figure 4).
+A potentially more useful set of data calculations to analyse would be the Scatter Plot Matrix (Figure 2) and the Scatter Plot of all of the Iris data set variables (Figure 4). A scatter plot is a graph in which a set of points plotted on a horizontal and vertical axes.As scatter plots show the extent of correlation between the values of the variables, they are an important tool in statistics. If there is no correlation between the variables the points will show randomly scattered on the coordinate plane. But, if there is a large correlation between the variables, the points concentrate near a straight line. Therefore, scatter plots are quite useful for data visualization as they illustrate a trend. Scatter plots shows not only the extent of correlation, but also the sense of the correlation. [12]
+
+The Scatter Plot matrix highlights that Iris Setosa is linearly separable from the other two species; there is considerable overlap between Iris Virginica and Iris Versicolor suggsting a high correlation and predictable relationship. 
+
+Thus to distinguish between Iris Virginica and Iris Versicolor, we have to analyse some other features. They can be seperated on the basis of Petal Length and Petal Width. In the plot between petal width verses petal length, the petal width and length of Iris Versicolor is smaller than that of Iris Virginica. [11]
 
 
-
-New learnings while completing this project: Using new Python libraries e.g. NumPy, Pandas, Matplotllib; Learning how to produce and create visual outputs e.g. histograms, scatter plots while also understanding the outputs; Calculating the min, max and values; Running iPython as an active terminal to test code and outputs before committing them to scripts; Learning new GitHUb functonality e.g. Markdown and the Issues tab. [9]
+New learnings while completing this project include: Using new Python libraries e.g. NumPy, Pandas, Matplotllib; Learning how to produce and create visual outputs e.g. histograms, scatter plots while also understanding their outputs; Calculating the min, max and values; Running iPython as an active terminal to test code and outputs before committing them to scripts; Learning new GitHUb functonality e.g. Markdown and the Issues tab. [9]. Resizing image files [10]
 
 
 # References
@@ -87,6 +90,6 @@ New learnings while completing this project: Using new Python libraries e.g. Num
 [7] https://en.wikipedia.org/wiki/Data_set \
 [8] https://matplotlib.org/users/pyplot_tutorial.html \
 [9] https://guides.github.com/features/mastering-markdown \
-[10] \
-[11] \
-[12] \
+[10] https://gist.github.com/uupaa/f77d2bcf4dc7a294d109 \
+[11] https://www.kaggle.com/farheen28/iris-dataset-analysis-using-knn \
+[12] https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60 \
